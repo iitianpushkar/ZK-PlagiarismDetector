@@ -46,25 +46,28 @@ This project implements a **privacy-preserving plagiarism detector** that calcul
    git clone https://github.com/your-repo/plagiarism-detector.git
    cd plagiarism-detector
    ```
-2. Install dependencies:
+2. For frontend:
    ```sh
+   cd frontend
    npm install
+   npm run dev
    ```
-3. Run plagiarism detection:
+3. For backend:
    ```sh
-   node detect.js <path-to-document>
+   cd backend
+   uvicorn main:app --reload
    ```
-4. Generate zk-Proof:
+4. For zkvm:
    ```sh
-   node generateProof.js
+   cd zkvm
+   cd hasher
+   cargo run
    ```
-5. Submit proof to zkVerify:
+5. For Nodejs-Server:
    ```sh
-   node submitProof.js
-   ```
-6. Verify on EduChain and Mint NFT:
-   ```sh
-   node mintNFT.js
+   cd Nodejs-Server
+   npm install
+   node server.js
    ```
 
 ## Use Cases
