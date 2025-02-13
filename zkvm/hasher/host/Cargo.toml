@@ -1,0 +1,18 @@
+[package]
+name = "host"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+methods = { path = "../methods" }
+risc0-zkvm = { version = "1.2.2" }
+tracing-subscriber = { version = "0.3.19" }
+serde = "1.0"
+serde_json = "1.0.137"
+ciborium = "0.2.2"
+hex = "0.4.3"
+axum = "0.7.5"
+tokio = { version = "1.37.0", features = ["full"] }
+tower-http = { version = "0.5.2", features = ["cors"] }
+tower="0.4"
+hyper = { version = "0.14", features = ["server"] }
