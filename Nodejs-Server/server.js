@@ -18,7 +18,7 @@ app.post('/zkverify', async (req, res) => {
          
     const {proof} =req.body
 
-const session = await zkVerifySession.start().Testnet().withAccount("make tuna glare tone ring police canal shaft report other chunk cycle")
+const session = await zkVerifySession.start().Testnet().withAccount("")
 
 const {events, transactionResult} = await session.verify().risc0().waitForPublishedAttestation()
 .execute({proofData:{
