@@ -43,7 +43,7 @@ This project implements a **privacy-preserving plagiarism detector** that calcul
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/plagiarism-detector.git
+   git clone https://github.com/iitianpushkar/ZK-PlagiarismDetector.git
    cd plagiarism-detector
    ```
 2. For frontend:
