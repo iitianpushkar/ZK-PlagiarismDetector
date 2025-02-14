@@ -4,6 +4,8 @@
 
 This project implements a **privacy-preserving plagiarism detector** that calculates a **similarity score** for text documents using **Euclidean distance**. The similarity score is then verified using **zk-proofs** via **RISC0**, submitted to **zkVerify**, and verified on **EduChain**. If the document meets originality criteria, an **NFT is minted** to certify authenticity.
 
+![Architecture](frontend/public/WhatsApp Image 2025-02-14 at 01.47.26_becf9183.jpg)
+
 ## Features
 
 ✅ **Privacy-Preserving** – No need to reveal the full document; only the similarity score is proven.
