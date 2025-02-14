@@ -1,6 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
+
+// contract address = 0x8d3cf544E94D0505e33e0fFb10a6b0Eb725D9786 (deployed on Open Campus EDU Chain)
+
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 
 contract ZkVerification is ERC721URIStorage {
